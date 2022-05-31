@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((BREADTH**POWER))
+echo "$(($BREADTH**$POWER))"
